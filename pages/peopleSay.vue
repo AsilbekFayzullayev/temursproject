@@ -16,7 +16,7 @@
         </v-col>
         <v-col cols="12" md="10" sm="10">
           <v-row>
-            <v-col md="12" class="pr-5 people" >
+            <v-col md="12" class="px-16 people" >
               <h1 class="people-text">WHAT PEOPLE SAY?</h1>
               <v-img :src="selectedItem.src" class="people-photo"></v-img>
             </v-col>

@@ -24,7 +24,7 @@
       <p>
         YOUR MESSAGE
       </p>
-      <v-row class="pr-10">
+      <v-row style="margin-right: 50%">
         <v-col cols="12" md="6" sm="6">
           <v-text-field
             v-model="name"
