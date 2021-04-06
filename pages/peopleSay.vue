@@ -20,75 +20,11 @@
               <h1 class="people-text">WHAT PEOPLE SAY?</h1>
               <v-img :src="selectedItem.src" class="people-photo"></v-img>
             </v-col>
-            <h4>{{ selectedItem.text }}</h4>
+            <h4 class="px-10 mx-10">{{ selectedItem.text }}</h4>
           </v-row>
 
         </v-col>
       </v-row>
-
-
-      <!--      <v-row align="center">-->
-      <!--        <v-item-group-->
-      <!--          v-model="window"-->
-      <!--          class="item_group"-->
-      <!--          tag="div"-->
-      <!--        >-->
-      <!--          <v-item-->
-      <!--            v-for="n in items"-->
-      <!--            :key="n"-->
-      <!--            v-slot="{ active, toggle }"-->
-      <!--          >-->
-      <!--            <div>-->
-      <!--              <v-btn-->
-      <!--                :input-value="active"-->
-      <!--                icon-->
-      <!--                @click="toggle"-->
-      <!--              >-->
-      <!--                <v-icon>mdi-record</v-icon>-->
-      <!--              </v-btn>-->
-      <!--            </div>-->
-      <!--          </v-item>-->
-      <!--        </v-item-group>-->
-
-      <!--        <v-col>-->
-      <!--          <v-window-->
-      <!--            show-arrows-on-hover-->
-      <!--            v-model="window"-->
-      <!--            class="elevation-1"-->
-      <!--            :vertical="false"-->
-      <!--          >-->
-      <!--            <v-window-item-->
-      <!--              v-for="n in items"-->
-      <!--              :key="n"-->
-      <!--            >-->
-
-      <!--              <v-card-text>-->
-      <!--                <v-row-->
-      <!--                  class="mb-4"-->
-      <!--                  align="center"-->
-      <!--                >-->
-
-      <!--                </v-row>-->
-      <!--                <h1 class="text3">-->
-      <!--                  WHAT PEOPLE SAY?-->
-
-      <!--                </h1>-->
-
-      <!--                <v-img width="1000px" height="400px" class="photo3" :src="n.src">-->
-
-      <!--                </v-img>-->
-
-      <!--                <div>-->
-      <!--                  <p style=" margin-top: 50px;font-size: 20px">-->
-      <!--                    {{ n.text }}-->
-      <!--                  </p>-->
-      <!--                </div>-->
-      <!--              </v-card-text>-->
-      <!--            </v-window-item>-->
-      <!--          </v-window>-->
-      <!--        </v-col>-->
-      <!--      </v-row>-->
-
     </form>
   </v-app>
 </template>

@@ -4,11 +4,11 @@
       class="text2"
     >
       <h1 class="services-text">SERVICES</h1>
-      <P>
+      <p style="width: 70%">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque commodi culpa, debitis doloremque eaque
         est perspiciatis totam vitae.
         Ab asperiores aspernatur deserunt doloribus error ipsa mollitia perspiciatis qui rerum!
-      </P>
+      </p>
       <v-list-item-group
         text
       >
@@ -123,7 +123,7 @@ export default {
 @media (max-width: 1300px) {
   .services-text{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
   .text2 {
     padding-left: 20px;
