@@ -54,12 +54,12 @@
       </nav>
     </v-navigation-drawer>
 
-    <v-main style="z-index: 0">
-      <v-window>
+    <v-main style="padding: 0 500px 0 0; z-index: 0">
+
         <div name="page" mode="out-in">
           <nuxt/>
         </div>
-      </v-window>
+
 
 
     </v-main>

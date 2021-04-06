@@ -165,7 +165,7 @@ export default {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   ul {
     list-style-type: none;
   }
